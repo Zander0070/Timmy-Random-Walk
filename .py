@@ -46,7 +46,7 @@ sides = 2
 
 RandomMoveSet = random.randint(50,100)
 tutle.speed(5000)
-
+tutle.pensize(width=20)
 for I in range (RandomMoveSet):
     #sides = sides + 1
         Moveforward()
